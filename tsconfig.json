@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "strict": true
+  },
+  "include": ["**/*.ts", "**/*.tsx"],      // Include TypeScript files
+  "exclude": ["node_modules"]
+}

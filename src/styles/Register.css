@@ -1,0 +1,91 @@
+.register-container {
+    height: 100vh;
+    /* Ensures full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9fafb;
+    margin: 0 auto;
+}
+
+.register-box {
+    background-color: #ffffff;
+    padding: 32px;
+    max-width: 350px;
+    width: 100%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centers the form vertically */
+    align-items: center;
+    /* Centers the form horizontally */
+    min-height: 400px;
+    /* Adjust the height to ensure enough space for centering */
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: none;
+}
+
+.register-logo {
+    max-width: 50px;
+}
+
+.register-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    width: 100%;
+    /* Makes the form fields take the full width */
+    margin-bottom: 20px;
+    /* Standard spacing between form elements */
+}
+
+.form-label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+    border-color: #fc02d2;
+}
+
+.register-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #fc31da;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 16px;
+    /* Space above the button */
+}
+
+.register-button:hover {
+    background-color: #fc02d2;
+}

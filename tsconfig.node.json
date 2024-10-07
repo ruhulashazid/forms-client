@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                           // Target ECMAScript version
+    "lib": ["ES2022"],                            // Use ES2022 libraries for Node.js
+    "module": "ESNext",                           // Use ESNext module system
+    "skipLibCheck": true,                         // Skip type checking of declaration files
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",                // Use bundler for module resolution
+    "allowImportingTsExtensions": true,           // Allow importing TypeScript extensions
+    "isolatedModules": true,                       // Ensure files can be transpiled independently
+    "moduleDetection": "force",                    // Force module detection
+    "noEmit": true,                               // Do not emit output files
+
+    /* Linting */
+    "strict": true,                               // Enable all strict type checking options
+    "noUnusedLocals": true,                       // Report errors on unused local variables
+    "noUnusedParameters": true,                    // Report errors on unused function parameters
+    "noFallthroughCasesInSwitch": true            // Report errors on fallthrough cases in switch statements
+  },
+  "include": ["vite.config.ts"],                  // Include the Vite configuration file
+  "exclude": ["node_modules"]                     // Exclude node_modules from TypeScript processing
+}
