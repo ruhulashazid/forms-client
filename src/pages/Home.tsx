@@ -8,7 +8,6 @@ const Home = () => {
       <div className="mt-8">
         <h3 className="text-xl font-semibold mb-4">Create a New Form</h3>
         <input type="text" placeholder="Form Title" className="w-full p-2 mb-4 border rounded" />
-        <textarea placeholder="Form Description" className="w-full p-2 mb-4 border rounded"></textarea>
         <button className="w-full bg-blue-600 text-white p-2 rounded hover:bg-blue-700">
           Create Form
         </button>
