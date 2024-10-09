@@ -18,11 +18,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* Centers the form vertically */
     align-items: center;
-    /* Centers the form horizontally */
     min-height: 400px;
-    /* Adjust the height to ensure enough space for centering */
+    
 }
 
 .logo-container {
@@ -45,9 +43,8 @@
 
 .form-group {
     width: 100%;
-    /* Makes the form fields take the full width */
     margin-bottom: 20px;
-    /* Standard spacing between form elements */
+    text-align: left;
 }
 
 .form-label {
